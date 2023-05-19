@@ -17,14 +17,17 @@ const App = () => {
           </div>
           <i
             class="fa-solid fa-bars"
-            style="font-size: 30px; margin: 0 2rem;"
+            style={{ fontsize: "30px", margin: "0 2rem", color: "black" }}
           ></i>
         </div>
       </header>
 
       <section class="YJInformation">
         <div class="selfImg">
-          <img src="./image/LYJimg.JPG" alt="개인사진" />
+          <img
+            src={`${process.env.PUBLIC_URL}/image/LYJimg.JPG`}
+            alt="개인사진"
+          />
         </div>
         <article class="LeftInformation">
           <div class="YJIndividualInformation">
@@ -37,7 +40,7 @@ const App = () => {
               <div>생년월일</div>
             </div>
             <div class="residence">
-              <div>춘천</div>
+              <div>서울</div>
               <div>거주지</div>
             </div>
           </div>
@@ -96,15 +99,24 @@ const App = () => {
             <h1>첫번째 개발 프로젝트: TogatherBuy</h1>
             <span>프로젝트 설명 : 공동 구매 서비스 플랫폼</span>
             <div>
-              <img src="./image/TogetherBuy.png" alt="" />
+              <img
+                src={`${process.env.PUBLIC_URL}/image/TogetherBuy.png`}
+                alt=""
+              />
             </div>
           </div>
           <div class="project2">
             <h1>두번째 개발 프로젝트: Allkit</h1>
             <span>프로젝트 설명 : 간편식 커뮤니티 플랫폼</span>
             <div>
-              <img src="./image/Allkit1.png" />
-              <img src="./image/Allkit2.png" />
+              <img
+                src={`${process.env.PUBLIC_URL}/image/Allkit1.png`}
+                alt="allkit"
+              />
+              <img
+                src={`${process.env.PUBLIC_URL}/image/Allkit2.png`}
+                alt="allkit"
+              />
             </div>
           </div>
           <div class="award">
