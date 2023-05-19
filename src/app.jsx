@@ -10,8 +10,12 @@ const App = () => {
             <h1>YJ</h1>
             <nav>
               <ul>
-                <li>자기소개</li>
-                <li>프로젝트</li>
+                <li>
+                  <a href="#myInfo">자기소개</a>
+                </li>
+                <li>
+                  <a href="#project">프로젝트</a>
+                </li>
               </ul>
             </nav>
           </div>
@@ -57,7 +61,7 @@ const App = () => {
         </article>
       </section>
 
-      <div class="underSection">
+      <div class="underSection" id="myInfo">
         <h1 class="mainHeading">
           프론트엔드 <span>이예진</span>의 <span>23</span>년도 포트폴리오예요.
         </h1>
@@ -79,11 +83,13 @@ const App = () => {
             저에 대해 더 궁금하시다면 아래 링크를 통해 깃허브에 놀러오세요!!
             <br />
             깃허브 주소:{" "}
-            <a href="https://github.com/LYejin">https://github.com/LYejin</a>
+            <a href="https://github.com/LYejin" className="githubLink">
+              https://github.com/LYejin
+            </a>
           </p>
         </section>
 
-        <section class="project">
+        <section class="project" id="project">
           <h1 class="underSectionHead">
             <div class="underSectionHeading">
               <i class="fa-solid fa-circle"></i>

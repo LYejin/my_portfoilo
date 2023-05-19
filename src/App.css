@@ -4,6 +4,12 @@
 }
 
 a {
+  color: #ae9779;
+  text-decoration: none;
+  outline: none;
+}
+
+.githubLink {
   color: #fff;
   text-decoration: none;
   outline: none;
